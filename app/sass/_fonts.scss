@@ -1,4 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto+Slab:300,400,700|Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:400,700&display=swap');
 // font-family: 'Roboto Slab', serif;
 // font-family: 'Roboto', sans-serif;
-// font-family: 'Open Sans', sans-serif;
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Regular.woff') format('woff'),
+    url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: url('../fonts/OpenSans-SemiBold.eot');
+    src: url('../fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-SemiBold.woff') format('woff'),
+    url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin sans-regular {
+    font-family: 'Open Sans Regular', sans-serif;
+}
+
+@mixin sans-semi {
+    font-family: 'Open Sans Semibold', sans-serif;
+}

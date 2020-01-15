@@ -29,15 +29,9 @@ html(lang="ru")
                             .course-price__spec-num 29 000 
                                 span.price-rub P
                             .course-price__spec-title Для первых 20-ти
-                            .course-price__spec-title.course-price__spec-title--mob Первым 20-ти
                     .price-card__block.course-enter
                         .course-enter-container
                             .course-enter__title Запишитесь на&nbsp;курс
-                            ul.advantage-list
-                                li.advantage-list__item Телефон
-                                li.advantage-list__item Телефон
-                                li.advantage-list__item Телефон
-                                li.advantage-list__item Телефон
                             .start-course
                                 .start-course__row Старт курса: 
                                     span.start-course__strong 7 сентября
@@ -55,7 +49,7 @@ html(lang="ru")
                                     span.enter-form__label Email
                                 button.enter-form__button#send-button Записаться
                                 input(type="checkbox", name="" id="enter-form__agree" class="enter-form__check")
-                                label(for="enter-form__agree").enter-form__agree Я согласен с условиями обработки  
+                                label(for="enter-form__agree").enter-form__agree Я согласен с условиями обработки 
                                     a(href="#") персональных&nbsp;данных
             .site-desc
                 .site-desc__title Отчет по тестовому заданию
@@ -65,13 +59,11 @@ html(lang="ru")
                     li.advantage-list__item CSS препроцессор Sass (SCSS)
                     li.advantage-list__item HTML шаблонизатор Pug
                     li.advantage-list__item Сборщик проекта Gulp (сборка включена в репозиторий)
-                p Подключал шрифты разными способами (Google fonts и локально)<br>
+                p Сайт разделен на ДВЕ страницы: index.html и post.html (это было сделано из-за конфликта валидации двух одинаковых форм)
+                p Подключал шрифты разными способами (Google fonts и локально)<br> mixin для шрифтов прописаны в файле по пути sass/_fonts.css
                 p Все анимации написаны вручную без библиотек на css
                 p Форма полностью валидируется, при успешной отправки появится popup, информирующий об успешной отправки
                 p Валидация формы была полностью написана вручную, без сторонних помощников с нуля (прям в этом проекте) на нативном JS
-                p 
-                    b Форма работает только в первой (верхней) секции! 
-                    |Это происходит из-за того что 2 секции полностью идентичны и данная верстка не подразумевает отправку/валидацию в двух формах сразу
                 p Так же данная верстка полностью адаптивная и кроссбраузерная
         
         

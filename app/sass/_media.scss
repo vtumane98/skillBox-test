@@ -1,0 +1,113 @@
+@media (max-width:930px){
+    .price-card{
+        max-width: 710px;
+        flex-direction: column;
+    }
+    .price-card__block{
+        width:100%;
+    }
+    .course-enter__title{
+        font-size: 38px;
+        text-align: center;
+    }
+    .course-enter-container{
+        max-width: 464px;
+    }
+    .start-course{
+        justify-content: space-around;
+        margin-top: 32px;
+    }
+    .advantage-list{
+        margin-top: 31px;
+        margin-bottom: 52px;
+    }
+    .enter-form__input{
+        padding-left: 20px;
+    }
+    .enter-form__label{
+        left:20px;
+    }
+    .price-section__title{
+        font-size: 45px;
+        line-height: 53px;
+    }
+    .course-price__spec-title{
+        display: none;
+    }
+    .course-price__spec-title--mob{
+        display: block;
+    }
+    .course-price__installment-title{
+        line-height: 23px;
+    }
+    .course-price__spec-title{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .price-card__block{
+        transform: translateX(0);
+    }
+}
+@media (max-width:510px){
+    .price-section__title{
+        font-size: 38px;
+        line-height: 44px;
+        padding: 0 25px;
+    }
+    .price-section{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .course-enter__title{
+        text-align: left;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .start-course{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .start-course__row{
+        margin: 5px 0;
+    }
+    .enter-form__agree::before{
+        border-color: #E6E8F0;
+    }
+    .enter-form__check:checked + .enter-form__agree::before{
+        background: transparent;
+    }
+    .enter-form__agree::after{
+        background-image: url('../img/check-blue.png');
+    }
+    .course-price__installment-num{
+        font-size: 56px;
+        line-height: 74px;
+    }
+    .course-price__installment-num span.price-rub::after{
+        width: calc(100% - 3px);
+        height: 3.5px;
+        top:46px;
+    }
+    .course-price__installment-title{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .course-price__spec-num{
+        font-size: 40px;
+        line-height: 53px;
+    }
+    .course-price__full-wrap{
+        margin-bottom: 10px;
+    }
+    .course-price__installment-wrap{
+        margin-bottom: 23px;
+    }
+    .course-price__spec-title{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .course-price__spec-num span.price-rub::after{
+        top: 33px;
+        height: 2px;
+    }
+}
